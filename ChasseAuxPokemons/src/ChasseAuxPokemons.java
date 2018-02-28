@@ -25,13 +25,13 @@ public class ChasseAuxPokemons {
 		
 		//affichage des bonjours
 		System.out.println();
-		/*
-		System.out.println("Piplup dis bonjour");
+		
+	/*	System.out.println("Piplup dis bonjour");
 		System.out.println("Rowlet dis bonjour");
 		System.out.println("Totodile dis bonjour");*/
-		p1.direBonjour(tempsDujour);
-		p2.direBonjour(tempsDujour);
-		p3.direBonjour(tempsDujour);
+		p1.direBonjour(args[0]);
+		p2.direBonjour(args[0]);
+		p3.direBonjour(args[0]);
 	}
 	
 

@@ -5,13 +5,14 @@ public class Pokemon {
 	private String type; 
 	private int niveau;
 	private Boolean diurne = true;
+	private String nomDonne;
 	
 	//Constructeur
 	public Pokemon(String monNom,String montype,int monNiveau, Boolean typeDiurne){
-		this.nom=monNom;
-		this.type=montype;
-		this.niveau=monNiveau;
-		this.diurne=typeDiurne;
+		this.nom = monNom;
+		this.type = montype;
+		this.niveau = monNiveau;
+		this.diurne = typeDiurne;
 	}
 	
 	//Methode toString
